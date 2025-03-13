@@ -78,7 +78,8 @@ Password: pass123
 
 Ensure these credentials are correctly configured in your `auth_server.py` or database if modified. 
 
-⚠️ Disadvantage
+## ⚠️ Disadvantage
+
 Currently, when the server starts using start_auth_server.bat, it prompts for admin approval (UAC prompt). This can be inconvenient as it requires manual confirmation each time the system boots.
 
 🔧 Future Improvement: In upcoming sessions, we will work on a method to bypass the admin prompt securely while maintaining system integrity.
