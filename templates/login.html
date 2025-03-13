@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Login</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    
+    <div class="container">
+        <div class="login-box">
+            <h2>Firewall Authentication</h2>
+            <p>Please enter your credentials</p>
+            
+            <form action="/" method="POST">
+                <div class="input-box">
+                    <input type="text" id="username" name="username" required>
+                    <label for="username">Username</label>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" id="password" name="password" required>
+                    <label for="password">Password</label>
+                </div>
+
+                <button type="submit" class="login-btn">Login</button>
+            </form>
+
+            <div class="footer-text">
+                <p>Secured Authentication ⎯ Powered by SlientPwn</p>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
