@@ -38,9 +38,7 @@ python auth_server.py
 The server will be accessible on your configured IP.
 
 ### 3️⃣ Auto-Start on Boot (Windows)  
-Place `start_auth_server.bat` in `shell:startup` to launch the server at system boot.
-
-Add the following note under **"3️⃣ Auto-Start on Boot (Windows)"** in the **Installation & Setup** section of your `README.md`:  
+Place `start_auth_server.bat` in `shell:startup` to launch the server at system boot. 
 
 ---
 
@@ -62,8 +60,6 @@ Modify `auth_server.py` to bind the server to a particular IP:
 app.run(host='192.168.1.1', port=5000)
 ```
 Ensure the firewall allows access to the selected IP.
-
-Add the following section under **"🔐 Authentication Details"** in your `README.md`:  
 
 ---
 
